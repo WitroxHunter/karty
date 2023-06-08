@@ -14,7 +14,7 @@
     <section class="lewo">
         <img src="https://media.discordapp.net/attachments/935989994735169546/975018659217031288/image0-1-2.gif">
     </section>
-    <main>
+    <main id="main">
         <div id="1"></div>
         <div id="2"></div>
         <div id="3"></div>
@@ -32,6 +32,7 @@
         <img src="https://media.discordapp.net/attachments/935989994735169546/975018659217031288/image0-1-2.gif">
     </section>
     <footer>
+        <h1 id="a"></h1>
         Jak wygrasz, napisz do Wiktorek#0119, wyślij screen potwierdzający
     </footer>
     <script>
@@ -62,6 +63,7 @@
         var tru12 = 0;
 
         var zdania = [
+            "<img src='https://media.discordapp.net/attachments/935989994735169546/975018659217031288/image0-1-2.gif'>",
             "&nbsp;&nbsp;&nbsp;&nbsp;i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;love &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css",
             "<img src='images/kubi.png'>",
             "<img src='images/2.jpg'>",
@@ -110,7 +112,6 @@
             "<img src='https://cdn.discordapp.com/attachments/1092217480778350673/1116385667551867041/image.png '>",
             "<img src='https://media.discordapp.net/attachments/935989994735169546/1053773106864463912/8CBFF220-8E52-45CF-898E-2BE985C0C3B3.gif'>",
             "<img src='https://media.discordapp.net/attachments/935989994735169546/1005055151725351032/92194F3B-CE01-462C-BD67-2E5B2F4DE220.gif'>",
-            "<img src='https://media.discordapp.net/attachments/935989994735169546/975018659217031288/image0-1-2.gif'>",
             "<img src='https://media.discordapp.net/attachments/877631060173783140/975452704728027136/caption-4.gif '>",
             "<img src='https://media.discordapp.net/attachments/935989994735169546/1028651197915213906/IMG_7313.gif '>",
             "<img src='https://media.discordapp.net/attachments/953396398898950214/1067167859412844644/ezgif-4-d342d1f6e4.gif'>",
@@ -440,6 +441,236 @@
                     }, 700);       
             }
         };
+
+        var main = document.getElementById("main");
+        main.onclick = function () {
+            console.log("dupa");
+            if (
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum3 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum4 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum5 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum6 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum7 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum2 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum4 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum5 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum6 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum7 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum3 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum5 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum6 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum7 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum4 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum6 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum7 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum5 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum7 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum6 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum1 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum1 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum1 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum1 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum1 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum4 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum5 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum6 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum7 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum8 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum3 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum5 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum6 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum7 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum8 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum4 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum6 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum7 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum8 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum5 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum7 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum8 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum6 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum2 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum2 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum2 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum2 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum2 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum5 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum6 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum7 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum8 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum9 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum4 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum6 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum7 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum8 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum9 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum5 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum7 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum8 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum9 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum6 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum3 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum3 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum3 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum3 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum3 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum3 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum6 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum7 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum8 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum9 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum10 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum5 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum7 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum8 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum9 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum10 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum6 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum4 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum4 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum4 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum4 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum4 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum4 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum4 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum4 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum7 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum8 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum9 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum10 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum11 === 1) ||
+            (randomNum5 === 1 && randomNum6 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum5 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum5 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum5 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum5 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum5 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum5 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum5 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum5 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum5 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum5 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum5 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum6 === 1 && randomNum7 === 1 && randomNum8 === 1) ||
+            (randomNum6 === 1 && randomNum7 === 1 && randomNum9 === 1) ||
+            (randomNum6 === 1 && randomNum7 === 1 && randomNum10 === 1) ||
+            (randomNum6 === 1 && randomNum7 === 1 && randomNum11 === 1) ||
+            (randomNum6 === 1 && randomNum7 === 1 && randomNum12 === 1) ||
+            (randomNum6 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum6 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum6 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum6 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum6 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum6 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum6 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum6 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum6 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum6 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum7 === 1 && randomNum8 === 1 && randomNum9 === 1) ||
+            (randomNum7 === 1 && randomNum8 === 1 && randomNum10 === 1) ||
+            (randomNum7 === 1 && randomNum8 === 1 && randomNum11 === 1) ||
+            (randomNum7 === 1 && randomNum8 === 1 && randomNum12 === 1) ||
+            (randomNum7 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum7 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum7 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum7 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum7 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum7 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum8 === 1 && randomNum9 === 1 && randomNum10 === 1) ||
+            (randomNum8 === 1 && randomNum9 === 1 && randomNum11 === 1) ||
+            (randomNum8 === 1 && randomNum9 === 1 && randomNum12 === 1) ||
+            (randomNum8 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum8 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum8 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum9 === 1 && randomNum10 === 1 && randomNum11 === 1) ||
+            (randomNum9 === 1 && randomNum10 === 1 && randomNum12 === 1) ||
+            (randomNum9 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
+            (randomNum10 === 1 && randomNum11 === 1 && randomNum12 === 1)) {
+                
+                var a = document.getElementById("a");
+                a.innerHTML = "WYGRAŁEŚ!!!!!";
+        }
+    }
     </script>
 </body>
 </html>
