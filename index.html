@@ -444,7 +444,6 @@
 
         var main = document.getElementById("main");
         main.onclick = function () {
-            console.log("dupa");
             if (
             (randomNum1 === 1 && randomNum2 === 1 && randomNum3 === 1) ||
             (randomNum1 === 1 && randomNum2 === 1 && randomNum4 === 1) ||
@@ -667,9 +666,10 @@
             (randomNum9 === 1 && randomNum11 === 1 && randomNum12 === 1) ||
             (randomNum10 === 1 && randomNum11 === 1 && randomNum12 === 1)) {
                 
-                //wypierdalaj stąd
                 var a = document.getElementById("a");
+                // Wypierdalaj stąd
                 a.innerHTML = "WYGRAŁEŚ!!!!!";
+                alert("WYGRAŁEŚ!!!!!!");
         }
     }
     </script>
