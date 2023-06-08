@@ -1,6 +1,6 @@
 div {
-    width: 125px;
-    height: 200px;
+    width: 95px;
+    height: 153px;
     background-image: url("images/1.png");
     background-size: cover;
     margin: 10px;
@@ -15,9 +15,43 @@ div {
     transform: rotateY(90deg);
 }
 
+section img {
+    width: 20vw;
+}
+
+
+header img {
+    width: 50vw;
+}
+
+
+.lewo {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.prawo {
+    width: 32%;
+    float: right;
+    text-align: center;
+    margin-top: 150px;
+}
+
 div img {
     width: 100%;
     height: 100%;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    clear: both;
 }
 
 main {
@@ -25,4 +59,32 @@ main {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 36%;
+    float: left;
+}
+
+@media (max-width: 1200px) {
+    section img {
+      width: 10vw;
+    }
+}
+
+@media (max-width: 950px) {
+    section img {
+      display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    header img {
+        width: 30vw;
+    }   
+}
+
+@media (max-width: 950px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 }
