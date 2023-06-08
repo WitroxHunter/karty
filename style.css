@@ -1,6 +1,6 @@
 div {
-    width: 95px;
-    height: 153px;
+    width: 137px;
+    height: 220px;
     background-image: url("images/1.png");
     background-size: cover;
     margin: 10px;
@@ -86,5 +86,12 @@ main {
 @media (max-width: 450px) {
     main {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1450px) {
+    div {
+        width: 119px;
+        height: 190px;
     }
 }
