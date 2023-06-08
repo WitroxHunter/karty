@@ -83,7 +83,7 @@ main {
     }   
 }
 
-@media (max-width: 950px) {
+@media (max-width: 450px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
